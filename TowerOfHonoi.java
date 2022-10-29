@@ -4,19 +4,19 @@
 import java.io.*;
 import java.math.*;
 import java.util.*;
+
 class GFG {
-int clone jk
-cczcz);
+int clone
+    jk cczcz);
     }
- 
+
     // Driver code
-    public static void main(String args[])
-    {
+    public static void main(String args[]) {
         int N = 3;
- 
+
         // A, B and C are names of rods
         towerOfHanoi(N, 'A', 'C', 'B');
     }
 }
- 
-//This add by prokSH
+
+// This add by prokSH
