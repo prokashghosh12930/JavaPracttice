@@ -6,6 +6,5 @@ public class ConcatinateInt {
         int e, f, d;
         e = f = d = 22;
         System.out.println("E: " + e + " F: " + f + " a,b,c: " + a);
-        // this is created by
     }
 }
