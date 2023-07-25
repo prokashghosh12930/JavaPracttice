@@ -6,7 +6,9 @@ public class UserInput {
         System.out.println("Enter Number {int}:");
         int a = sc.nextInt();
         System.out.println("Entr second Number:");
-        int b = sc.nextInt();
+        float b = sc.nextFloat();
         System.out.println("Numbers are->\t" + a + "\t" + b);
+        System.out.println(sc);
+        sc.close();
     }
 }
