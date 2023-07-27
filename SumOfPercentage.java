@@ -10,7 +10,8 @@ public class SumOfPercentage {
         System.out.println("Your obtain marks total");
         float marks = sc.nextFloat();
         float totalMarks = (total * subjects);
-        float percentage = (float) ((marks / totalMarks) * 100);
+        float percentage = ((marks / totalMarks) * 100);
         System.out.println("your percenage is->" + percentage + "%");
+        sc.close();
     }
 }
