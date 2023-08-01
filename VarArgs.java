@@ -15,9 +15,22 @@ public class VarArgs {
         }
     }
 
+    public static void prinology(int n) {
+        for (int i = 0; i < n; i++) {
+            System.out.print("*");
+        }
+        System.out.print("\n");
+        if (n == 0) {
+            System.out.println(" ");
+        } else {
+            prinology(n - 1);
+        }
+    }
+
     public static void main(String[] args) {
-        System.out.println("Welcome to variable argument;;");
-        System.out.println("Print the sum of two numbers" + sumOf(3, 5, 6));
-        System.out.println("Factorial of number" + factoial(4));
+        // System.out.println("Welcome to variable argument;;");
+        // System.out.println("Print the sum of two numbers" + sumOf(3, 5, 6));
+        // System.out.println("Factorial of number\t" + factoial(4));
+        prinology(4);
     }
 }
