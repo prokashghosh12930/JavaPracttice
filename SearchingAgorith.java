@@ -3,10 +3,9 @@
 // return -1
 
 class GFG {
-	public static int search(int arr[], int x)
-	{
+	public static int search(int arr[], int x) {
 		int N = arr.length;
-        System.out.println("value of N\t"+ N);
+		System.out.println("value of N\t" + N);
 		for (int i = 0; i < N; i++) {
 			if (arr[i] == x)
 				return i;
@@ -15,8 +14,7 @@ class GFG {
 	}
 
 	// Driver's code
-	public static void main(String args[])
-	{
+	public static void main(String args[]) {
 		int arr[] = { 2, 3, 4, 10, 40 };
 		int x = 10;
 
@@ -24,9 +22,8 @@ class GFG {
 		int result = search(arr, x);
 		if (result == -1)
 			System.out.print(
-				"Element is not present in array");
+					"Element is not present in array");
 		else
-			System.out.print("Element is present at index "
-							+ result);
+			System.out.print("Element is present at index " + result);
 	}
 }
