@@ -15,6 +15,15 @@ interface Bicycle {
     }
 }
 
+// Inharitance of interface
+interface BicycleProMaxLegend extends Bicycle {
+    void autoPilot();
+
+    void autoBreak();
+
+    void displayMap();
+}
+
 class Running implements Bicycle {
     public void Break() {
         System.out.println("Break function");
@@ -22,6 +31,29 @@ class Running implements Bicycle {
 
     public void run() {
         System.out.println("Run cycle" + PI);
+    }
+}
+
+// class using inerface of inhritance.
+class AutoRunning implements BicycleProMaxLegend {
+    public void Break() {
+        System.out.println("Break function");
+    }
+
+    public void run() {
+        System.out.println("Run cycle" + PI);
+    }
+
+    public void autoPilot() {
+        System.out.println("showinng autoilot");
+    }
+
+    public void autoBreak() {
+        System.out.println("");
+    }
+
+    public void displayMap() {
+        System.out.println("Displayiunng map.");
     }
 }
 
