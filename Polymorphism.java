@@ -31,10 +31,12 @@ class MyCellPhone2 {
 }
 
 class MySmartPhone2 extends MyCellPhone2 implements MyWifi2, MyCamera2 {
+    @Override
     public void takeSnap() {
         System.out.println("Taking snap");
     }
 
+    @Override
     public void recordVideo() {
         System.out.println("Taking snap");
     }
@@ -42,12 +44,14 @@ class MySmartPhone2 extends MyCellPhone2 implements MyWifi2, MyCamera2 {
     // public void record4KVideo(){
     // System.out.println("Taking snap and recoding in 4k");
     // }
+    @Override
     public String[] getNetworks() {
         System.out.println("Getting List of Networks");
         String[] networkList = { "Harry", "Prashanth", "Anjali5G" };
         return networkList;
     }
 
+    @Override
     public void connectToNetwork(String network) {
         System.out.println("Connecting to " + network);
     }
