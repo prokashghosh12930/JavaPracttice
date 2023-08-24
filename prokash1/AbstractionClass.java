@@ -1,3 +1,5 @@
+package prokash1;
+
 abstract class Parent2 {
     public Parent2() {
         System.out.println("Mai base2 ka constructor hoon");

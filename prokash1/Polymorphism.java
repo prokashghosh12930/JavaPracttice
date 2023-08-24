@@ -1,3 +1,5 @@
+package prokash1;
+
 interface MyCamera2 {
     void takeSnap();
 
