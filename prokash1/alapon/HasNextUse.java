@@ -1,3 +1,5 @@
+package prokash1.alapon;
+
 import java.util.Scanner;
 
 public class HasNextUse {
