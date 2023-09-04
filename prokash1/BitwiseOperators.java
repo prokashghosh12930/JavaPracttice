@@ -14,5 +14,10 @@ public class BitwiseOperators {
         int c = 2;
         int resultOfLeftShift = c << 3;// one number multiply with two of three times we use this operators.
         System.out.println("Output of left shift:\t" + resultOfLeftShift);
+        /**
+         * Now we doing ~inverse operator.
+         */
+        int inverseOfVara = ~a;
+        System.out.println("Output of inverse of var a-> " + inverseOfVara);
     }
 }
